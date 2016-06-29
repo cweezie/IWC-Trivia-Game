@@ -1,22 +1,52 @@
 body{
-    font-size:28px;
+    font-size:20px;
     text-align:center;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    background-color:#0099cc;
-    color:#ff66cc;
+    background-color:#003399;
+    color:#ffffff;
 }
 
 #startbutton{
     text-decoration: none;
     border-color: #ff66cc;
-    border-width:3px;
+    border-width:10px;
     border-style: solid;
-    padding:5px;
+    padding:10px;
+    color:#ff33cc; 
+    font-size: 25px; 
+    margin-bottom: 50px;
+}
+
+img { 
+    width: 50px;
+    position: relative; 
+    margin: 50px
+    
 }
 
 h1 {
     font-family: 'Roboto', sans-serif; 
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 2px 2px #FF0000;
     font-family: 'Arvo', serif;
 }
+
+#wrong3{ 
+    border-color:#ff66cc;  
+} 
+
+#wrong1{ 
+    border-color:#ff66cc;
+}
+    
+#right1{ 
+    border-color:#ff66cc;
+} 
+
+#wrong2{ 
+    border-color: #ff66cc; 
+} 
+
+
+    
+    
