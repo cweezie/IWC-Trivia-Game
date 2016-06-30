@@ -39,5 +39,5 @@ function Correct(){
     var rightAnswer = document.getElementById("right1");
     rightAnswer.style.color ="green";
     //ScoreUp();
-    Navigation("ques5.html");
+    Navigation("end.html");
 }

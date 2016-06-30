@@ -9,19 +9,22 @@ body{
 #startbutton{
     text-decoration: none;
     border-color: #ff66cc;
-    border-width:10px;
+    border-width:4px;
     border-style: solid;
     padding:10px;
     color:#ff33cc; 
     font-size: 25px; 
     margin-bottom: 50px;
+    border-radius: 5px;
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 img { 
-    width: 50px;
+    width: 200px;
     position: relative; 
     margin: 50px
-    
 }
 
 h1 {

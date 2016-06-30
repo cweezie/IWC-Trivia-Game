@@ -3,16 +3,16 @@
 var points = 0;
 var current; 
 
-function ScoreUp(){
-    current=10;
-    points= points + current;
-    document.getElementById("scoreCard").innerHTML = "Score:" + points;
-}
-function ScoreDown(){
-    current = 10;
-    points = points - current;
-    document.getElementById("scoreCard").innerHTML = "Score: " + points + " Points";
-}
+//function ScoreUp(){
+//    current=10;
+//    points= points + current;
+//    document.getElementById("scoreCard").innerHTML = "Score:" + points;
+//}
+//function ScoreDown(){
+//    current = 10;
+//    points = points - current;
+//    document.getElementById("scoreCard").innerHTML = "Score: " + points + " Points";
+//}
 function Navigation(pageName){
     window.location = pageName;
 }
@@ -38,6 +38,6 @@ function Cancel(){
 function Correct(){
     var rightAnswer = document.getElementById("right1");
     rightAnswer.style.color ="green";
-    ScoreUp();
+    //ScoreUp();
     Navigation("ques4.html");
 }
